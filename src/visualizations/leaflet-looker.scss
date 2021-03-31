@@ -1,0 +1,43 @@
+#vis {
+  color: red;
+  transition: all 2ms;
+  &:hover {
+    color: blue;
+  }
+}
+
+#mapLayer {
+  //fill:#aaa;
+  stroke: white;
+  stroke-width: 0.5;
+  vector-effect: non-scaling-stroke;
+}
+
+.state-borders {
+  fill: none;
+  stroke: #000;
+}
+
+.airport-arc {
+  fill: #f00;
+}
+
+.airport:hover .airport-arc {
+  stroke: #f00;
+}
+
+.airport-cell {
+  fill: none;
+  stroke: #000;
+  stroke-opacity: 0.1;
+  pointer-events: all;
+}
+
+.airport-dots{
+  stroke: red;
+  fill: red;
+}
+
+.points {
+  cursor: pointer;
+}
